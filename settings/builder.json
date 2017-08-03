@@ -1,0 +1,26 @@
+{
+  "appKey": "",
+  "appSecret": "",
+  "excludeScenes": [
+    "937f8759-5e5b-4203-bbd2-f7a7264fe21d"
+  ],
+  "includeAnySDK": false,
+  "includeSdk": [
+    "anysdk"
+  ],
+  "inlineSpriteFrames": true,
+  "mergeStartScene": false,
+  "oauthLoginServer": "",
+  "orientation": {
+    "landscapeLeft": true,
+    "landscapeRight": true,
+    "portrait": false,
+    "upsideDown": false
+  },
+  "packageName": "org.cocos2d.barracat",
+  "privateKey": "",
+  "renderMode": "0",
+  "startScene": "2d2f792f-a40c-49bb-a189-ed176a246e49",
+  "title": "barracat",
+  "webOrientation": "portrait"
+}
