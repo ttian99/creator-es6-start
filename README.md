@@ -34,7 +34,8 @@ creator项目基本结构
 ```
 assets
 |-- prefab 预制资源
-|-- resource 场景资源
+|-- resources 需要动态加载的资源，必须放置于该目录下（）
+|-- res-static 不需要动态加载的资源，置于resources文件夹外，可减少项目的json数量
 |-- scene 场景文件
 |-- script 脚本文件
       |-- config 常用配置文件和静态文件信息

@@ -90,8 +90,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1080,
-      "height": 1920
+      "width": 960,
+      "height": 640
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -99,8 +99,8 @@
     "_scaleY": 1,
     "_position": {
       "__type__": "cc.Vec2",
-      "x": 540,
-      "y": 960
+      "x": 480,
+      "y": 320
     },
     "_skewX": 0,
     "_skewY": 0,
@@ -145,8 +145,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 1080,
-      "height": 1920
+      "width": 960,
+      "height": 640
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -218,7 +218,7 @@
   },
   {
     "__type__": "cc.Node",
-    "_name": "logo",
+    "_name": "hello_label",
     "_objFlags": 0,
     "_parent": {
       "__id__": 2
@@ -235,7 +235,7 @@
       }
     ],
     "_prefab": null,
-    "_id": "870ffp6eSdLVLffqe/wOgVK",
+    "_id": "a8dejwMppNNJIp09s75jPF",
     "_opacity": 255,
     "_color": {
       "__type__": "cc.Color",
@@ -252,8 +252,8 @@
     },
     "_contentSize": {
       "__type__": "cc.Size",
-      "width": 332,
-      "height": 336
+      "width": 503.55,
+      "height": 60
     },
     "_rotationX": 0,
     "_rotationY": 0,
@@ -272,30 +272,26 @@
     "groupIndex": 0
   },
   {
-    "__type__": "cc.Sprite",
+    "__type__": "cc.Label",
     "_name": "",
     "_objFlags": 0,
     "node": {
       "__id__": 6
     },
     "_enabled": true,
-    "_spriteFrame": {
-      "__uuid__": "fedcf4b4-6504-4b9b-8dfa-fea8a1a3af2b"
-    },
-    "_type": 0,
-    "_sizeMode": 1,
-    "_fillType": 0,
-    "_fillCenter": {
-      "__type__": "cc.Vec2",
-      "x": 0,
-      "y": 0
-    },
-    "_fillStart": 0,
-    "_fillRange": 0,
-    "_isTrimmedMode": true,
-    "_srcBlendFactor": 770,
-    "_dstBlendFactor": 771,
-    "_atlas": null
+    "_useOriginalSize": false,
+    "_actualFontSize": 60,
+    "_fontSize": 60,
+    "_lineHeight": 60,
+    "_enableWrapText": true,
+    "_N$file": null,
+    "_isSystemFontUsed": true,
+    "_spacingX": 0,
+    "_N$string": "Hello Cocos ES6!!!",
+    "_N$horizontalAlign": 1,
+    "_N$verticalAlign": 1,
+    "_N$fontFamily": "Arial",
+    "_N$overflow": 0
   },
   {
     "__type__": "cc.Widget",
@@ -333,11 +329,11 @@
     "_enabled": true,
     "_designResolution": {
       "__type__": "cc.Size",
-      "width": 1080,
-      "height": 1920
+      "width": 960,
+      "height": 640
     },
-    "_fitWidth": true,
-    "_fitHeight": false
+    "_fitWidth": false,
+    "_fitHeight": true
   },
   {
     "__type__": "dbd93BT38hCOJXFZiJE8kr/",
@@ -347,8 +343,6 @@
       "__id__": 2
     },
     "_enabled": true,
-    "testLogo": {
-      "__id__": 6
-    }
+    "testLogo": null
   }
 ]
