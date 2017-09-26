@@ -1,12 +1,17 @@
 # creator-es6-start
 
 ## 一、环境准备
-- 安装cocos creator v1.5.0
-- 安装nodejs v6.10.2+
-- 安装vscode编辑器（包括插件：ESLint, EditorConfig for VS Code）
-- 安装项目第三方依赖包:命令行运行``` npm install ```
+- 安装cocos creator引擎, 版本号V1.6.1。([cocos creator下载地址](http://www.cocos.com/creator))
+- 安装nodejs环境, 版本号v6.10.2+。([nodejs下载地址](https://nodejs.org/))
+- 安装nodejs第三方依赖包： 安装完nodejs后,在命令行运行
+ ```bash
+ cd <项目根目录>
+ npm install
+ ```
+- 安装Visual Studio Code(vscode),版本号v1.14。([vscode下载地址](https://code.visualstudio.com/))
 
 ## 二、代码规范
+项目全局使用ESLint插件来检测代码规范。
 - 使用[editorConfig](https://marketplace.visualstudio.com/items?itemName=EditorConfig.EditorConfig)统一编辑器格式
 - 使用[eslint](http://eslint.cn/)检测代码规范，vscode需要安装ESLint插件
 - 统一使用[Airbnb规范](https://github.com/airbnb/javascript)
@@ -14,9 +19,9 @@
 
 
 ## 三、项目结构
-
+### 项目主体目录结构（每个creator项目必备结构）
 ```
-creator项目基本结构
+barracat项目根目录
 |-- assets 里面是creator资源文件夹，包含游戏中所有本地资源、脚本和第三方库文件。
 |-- build 发布文件夹，发布的各个平台项目都在该文件夹下面。
 |-- library 将assets中的资源导入后生成的，在这里文件的结构和资源的格式将被处理成最终游戏发布时需要的形式。
@@ -27,7 +32,7 @@ creator项目基本结构
 |-- creator.d.ts 用于creator的代码提示文件
 |-- jsconfig.json 用于creator的代码提示文件
 |-- project.json 规定当前使用的引擎类型和插件存储位置
-|-- build-templates 构建的模板文件，包括jsb-binary、jsb-default、web-mobile文件夹，构建完成后会拷贝到对应build文件夹的对应平台下
+|-- build-templates 构建的模板文件，包括jsb-binary、jsb-default、web-mobile文件夹，构建完成后会拷贝到build文件夹的对应平台下面
 ```
 
 ## 四、assets文件夹结构
